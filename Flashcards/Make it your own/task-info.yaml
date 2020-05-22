@@ -120,6 +120,75 @@ files:
         // just empty class, but not abstract so it can be run
     }
   learner_created: false
+- name: src/flashcards/Main.java
+  visible: true
+  text: |
+    package flashcards;
+
+    import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+
+            Scanner scanner = new Scanner(System.in);
+            String term = scanner.nextLine();
+            String definition = scanner.nextLine();
+            String answer = scanner.nextLine();
+            Card card = new Card(term,definition,answer);
+            //System.out.println(card.toString());
+            if(card.getAnswer().equals(card.getDefintion())){
+                System.out.println("right");
+            }else{
+                System.out.println("wrong");
+            }
+        }
+    }
+
+    class Card{
+        String term;
+        String defintion;
+        String answer;
+
+        @Override
+        public String toString() {
+            return "Card{" +
+                "term='" + term + '\'' +
+                ", defintion='" + defintion + '\'' +
+                ", answer='" + answer + '\'' +
+                '}';
+        }
+
+        public Card(String term, String defintion, String answer) {
+            this.term = term;
+            this.defintion = defintion;
+            this.answer = answer;
+        }
+
+        public String getTerm() {
+            return term;
+        }
+
+        public void setTerm(String term) {
+            this.term = term;
+        }
+
+        public String getDefintion() {
+            return defintion;
+        }
+
+        public void setDefintion(String defintion) {
+            this.defintion = defintion;
+        }
+
+        public String getAnswer() {
+            return answer;
+        }
+
+        public void setAnswer(String answer) {
+            this.answer = answer;
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/44/stages/234/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 3

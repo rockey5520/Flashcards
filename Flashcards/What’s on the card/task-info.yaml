@@ -103,6 +103,21 @@ files:
 
 
   learner_created: false
+- name: src/flashcards/Main.java
+  visible: true
+  text: |
+    package flashcards;
+
+    public class Main {
+        public static void main(String[] args) {
+
+            System.out.println("Card:\n"
+                + "purchase\n"
+                + "Definition:\n"
+                + "buy");
+        }
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/44/stages/233/implement
-status: Unchecked
-record: -1
+status: Solved
+record: 2
