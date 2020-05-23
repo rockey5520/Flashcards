@@ -11,8 +11,16 @@ files:
             this.title = title;
         }
 
+        public final String getInfo() {
+            // write your code here
+        }
+
+        public String getType() {
+            return "Publication";
+        }
+
         public String getDetails() {
-            return "title=\"" + title + "\"";
+            return "";
         }
 
     }
@@ -56,6 +64,6 @@ files:
 
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/4334
+feedback_link: https://hyperskill.org/learn/step/4331
 status: Solved
 record: -1
