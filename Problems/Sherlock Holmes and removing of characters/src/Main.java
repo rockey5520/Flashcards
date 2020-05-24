@@ -1,11 +1,19 @@
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.Set;
 
 class Main {
 
   public static void main(String[] args) {
+    Random generator = new Random();
+    int a = generator.nextInt(3);
+    int b = generator.nextInt(2) + 1;
+    int c = generator.nextInt(4);
+    System.out.println(b);
+    System.out.println(a + " " + b + " " + c);
+
     Scanner scanner = new Scanner(System.in);
     String s1 = scanner.nextLine();
     String s2 = scanner.nextLine();
