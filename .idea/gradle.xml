@@ -15,6 +15,9 @@
             <option value="$PROJECT_DIR$/Flashcards/task" />
             <option value="$PROJECT_DIR$/Problems/Account" />
             <option value="$PROJECT_DIR$/Problems/Account Service" />
+            <option value="$PROJECT_DIR$/Problems/Adding values" />
+            <option value="$PROJECT_DIR$/Problems/Advanced calculator" />
+            <option value="$PROJECT_DIR$/Problems/Application as a class" />
             <option value="$PROJECT_DIR$/Problems/Army" />
             <option value="$PROJECT_DIR$/Problems/Avoid NPE" />
             <option value="$PROJECT_DIR$/Problems/Avoid division by zero" />
@@ -42,6 +45,8 @@
             <option value="$PROJECT_DIR$/Problems/Fix the program" />
             <option value="$PROJECT_DIR$/Problems/Fix the program (1)" />
             <option value="$PROJECT_DIR$/Problems/Fix the program (2)" />
+            <option value="$PROJECT_DIR$/Problems/Fixing the main method" />
+            <option value="$PROJECT_DIR$/Problems/Get first and last elements" />
             <option value="$PROJECT_DIR$/Problems/Getting the fullname" />
             <option value="$PROJECT_DIR$/Problems/Movie" />
             <option value="$PROJECT_DIR$/Problems/Mutable geometric shapes" />
@@ -49,8 +54,11 @@
             <option value="$PROJECT_DIR$/Problems/Output elements" />
             <option value="$PROJECT_DIR$/Problems/Output the list's elements" />
             <option value="$PROJECT_DIR$/Problems/Overloading methods" />
+            <option value="$PROJECT_DIR$/Problems/Parameters and their values" />
             <option value="$PROJECT_DIR$/Problems/Pastry packing optimization" />
             <option value="$PROJECT_DIR$/Problems/Preparing full name" />
+            <option value="$PROJECT_DIR$/Problems/Print  Hello, Java!" />
+            <option value="$PROJECT_DIR$/Problems/Print  We are robots!" />
             <option value="$PROJECT_DIR$/Problems/Printing strings in the same order" />
             <option value="$PROJECT_DIR$/Problems/Publication and its subclasses" />
             <option value="$PROJECT_DIR$/Problems/Publications" />
@@ -64,6 +72,7 @@
             <option value="$PROJECT_DIR$/Problems/Sherlock Holmes and the mystery of anagrams" />
             <option value="$PROJECT_DIR$/Problems/Squares list" />
             <option value="$PROJECT_DIR$/Problems/String to double conversion" />
+            <option value="$PROJECT_DIR$/Problems/The index of an argument" />
             <option value="$PROJECT_DIR$/Problems/Time" />
             <option value="$PROJECT_DIR$/util" />
           </set>
