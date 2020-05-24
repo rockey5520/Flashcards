@@ -26,6 +26,7 @@
             <option value="$PROJECT_DIR$/Problems/Classes for Hospital" />
             <option value="$PROJECT_DIR$/Problems/Compact strings with AsciiCharSequence" />
             <option value="$PROJECT_DIR$/Problems/Complex" />
+            <option value="$PROJECT_DIR$/Problems/Concat positive numbers" />
             <option value="$PROJECT_DIR$/Problems/Convert to bytes" />
             <option value="$PROJECT_DIR$/Problems/Converting and multiplying" />
             <option value="$PROJECT_DIR$/Problems/Count words" />
@@ -35,6 +36,7 @@
             <option value="$PROJECT_DIR$/Problems/Employees" />
             <option value="$PROJECT_DIR$/Problems/Find mistake" />
             <option value="$PROJECT_DIR$/Problems/Find the max of three numbers" />
+            <option value="$PROJECT_DIR$/Problems/Find the nearest number" />
             <option value="$PROJECT_DIR$/Problems/Find the seed" />
             <option value="$PROJECT_DIR$/Problems/Fix the non-compiled hierarchy" />
             <option value="$PROJECT_DIR$/Problems/Fix the program" />
@@ -45,6 +47,7 @@
             <option value="$PROJECT_DIR$/Problems/Mutable geometric shapes" />
             <option value="$PROJECT_DIR$/Problems/Only true or false" />
             <option value="$PROJECT_DIR$/Problems/Output elements" />
+            <option value="$PROJECT_DIR$/Problems/Output the list's elements" />
             <option value="$PROJECT_DIR$/Problems/Overloading methods" />
             <option value="$PROJECT_DIR$/Problems/Pastry packing optimization" />
             <option value="$PROJECT_DIR$/Problems/Preparing full name" />

@@ -18,9 +18,6 @@ files:
 - name: src/dataset_91065.txt
   visible: true
   learner_created: true
-- name: src/Main1.java
-  visible: true
-  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/2923
 status: Solved
 record: -1

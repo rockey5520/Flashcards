@@ -44,7 +44,7 @@ class OutputLine(val checker: (text: String, ctx: Context) -> CheckResult) : Phr
  * we need to pass all inputs first, and then start checking outputs. */
 fun user(text: String, updateContext: (ctx: Context) -> Unit = {}) = UserLine(text, updateContext)
 
-fun anyLine() = OutputLine { _, _ -> CheckResult.correct(); }
+fun anyLine(updateContext: CtxUpdate = {}) = OutputLine { _, ctx -> CheckResult.correct().also { updateContext(ctx) } }
 
 fun containing(
         vararg parts: String,
@@ -103,9 +103,7 @@ class DialogClue(private val phrases: List<PhraseLine>) {
                     if (!lineIter.hasNext()) {
                         return wrongOutputSizeFeedback()
                     }
-
-                    val line: String = lineIter.next()
-                    val result = phraseLine.checker(line, context)
+                    val result = phraseLine.checker(lineIter.next(), context)
                     if (!result.isCorrect) {
                         return CheckResult.wrong(result.feedback)
                     }
